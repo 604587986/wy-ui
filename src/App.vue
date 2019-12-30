@@ -18,9 +18,7 @@ export default {
   methods: {
     show() {
       const toast = this.$createToast({
-        txt: "Plain txt",
-        type: "correct",
-        time: 0
+        txt: "toast content"
       });
       toast.show();
     },
@@ -45,5 +43,4 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-
 </style>
