@@ -1,0 +1,44 @@
+{
+  "id": "1590595",
+  "name": "wy-ui",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3860245",
+      "name": "提示",
+      "font_class": "tishi",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "8106245",
+      "name": "close",
+      "font_class": "close",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "11372757",
+      "name": "成功",
+      "font_class": "success",
+      "unicode": "e8c3",
+      "unicode_decimal": 59587
+    },
+    {
+      "icon_id": "11372770",
+      "name": "失败",
+      "font_class": "error",
+      "unicode": "e8c5",
+      "unicode_decimal": 59589
+    },
+    {
+      "icon_id": "11372776",
+      "name": "叹号",
+      "font_class": "warn",
+      "unicode": "e8c6",
+      "unicode_decimal": 59590
+    }
+  ]
+}

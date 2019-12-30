@@ -4,15 +4,20 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
     "core-js": "^3.4.3",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-create-api": "^0.2.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "latest",
+    "@vue/cli-plugin-unit-mocha": "^4.1.2",
     "@vue/cli-service": "latest",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "chai": "^4.1.2",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
     "vue-template-compiler": "^2.6.10"
