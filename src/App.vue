@@ -24,10 +24,12 @@ export default {
     },
     show2() {
       this.$createDialog({
-        type: "alert",
-        title: "我是标题",
-        content: "我是内容",
-        icon: "iconfont icon-tishi"
+        type: "prompt",
+        title: "Prompt",
+        prompt: {
+          value: "",
+          placeholder: "Please input"
+        }
       }).show();
     }
   }

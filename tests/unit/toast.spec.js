@@ -76,7 +76,7 @@ describe('Toast', () => {
           expect(vm.isVisible)
             .to.be.false
           resolve()
-        }, 320)
+        }, 330)
       })
     })
     it('should render correct contents - with type txt', () => {
