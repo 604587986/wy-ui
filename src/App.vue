@@ -80,6 +80,7 @@ export default {
       this.num = 5;
       const toast = this.$createToast({
         type: "txt",
+        mask:true,
         $props: {
           txt: "num"
         },
