@@ -1,4 +1,4 @@
-# cube
+# wy-ui
 
 ## Project setup
 ```
