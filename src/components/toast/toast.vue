@@ -40,7 +40,7 @@ export default {
       default: false
     },
     txt: {
-      type: String,
+      type: [String, Number],
       default: ""
     },
     time: {
